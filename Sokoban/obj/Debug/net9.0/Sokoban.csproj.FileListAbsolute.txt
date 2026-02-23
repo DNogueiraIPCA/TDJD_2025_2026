@@ -32,3 +32,4 @@ C:\Users\fonte\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\obj\Debug\
 C:\Users\fonte\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\obj\Debug\net9.0\Sokoban.pdb
 C:\Users\fonte\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\obj\Debug\net9.0\Sokoban.genruntimeconfig.cache
 C:\Users\fonte\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\obj\Debug\net9.0\ref\Sokoban.dll
+C:\Users\fonte\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\FontSokoban.xnb

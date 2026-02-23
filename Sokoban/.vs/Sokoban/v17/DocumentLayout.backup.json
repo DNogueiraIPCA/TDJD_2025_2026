@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1311E465-7722-4943-8518-F78CDEDE67F0}|Sokoban.csproj|c:\\users\\fonte\\dropbox\\03-ipca\\05-repositorios\\tdjd_2025_2026\\sokoban\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1311E465-7722-4943-8518-F78CDEDE67F0}|Sokoban.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1311E465-7722-4943-8518-F78CDEDE67F0}|Sokoban.csproj|c:\\users\\fonte\\dropbox\\03-ipca\\05-repositorios\\tdjd_2025_2026\\sokoban\\content\\fontsokoban.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1311E465-7722-4943-8518-F78CDEDE67F0}|Sokoban.csproj|solutionrelative:content\\fontsokoban.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +18,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:1:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FontSokoban.spritefont",
+              "DocumentMoniker": "C:\\Users\\fonte\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Content\\FontSokoban.spritefont",
+              "RelativeDocumentMoniker": "Content\\FontSokoban.spritefont",
+              "ToolTip": "C:\\Users\\fonte\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Content\\FontSokoban.spritefont",
+              "RelativeToolTip": "Content\\FontSokoban.spritefont",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-23T15:33:50.474Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,14 +49,10 @@
               "RelativeDocumentMoniker": "Game1.cs",
               "ToolTip": "C:\\Users\\fonte\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAmwDUAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T16:55:58.323Z",
+              "WhenOpened": "2026-02-23T15:11:13.426Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

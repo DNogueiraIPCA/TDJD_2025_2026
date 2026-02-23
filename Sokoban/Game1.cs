@@ -9,6 +9,9 @@ namespace Sokoban
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        private SpriteFont font;
+
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -26,6 +29,7 @@ namespace Sokoban
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            font = Content.Load<SpriteFont>("FontSokoban"); //Use the name of sprite font file ('File')
 
             // TODO: use this.Content to load your game content here
         }
@@ -45,6 +49,11 @@ namespace Sokoban
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            _spriteBatch.Begin();
+
+            _spriteBatch.DrawString(font, "O texto que quiser", new Vector2(100, 100), Color.White);
+            
+            _spriteBatch.End();
 
             base.Draw(gameTime);
         }
