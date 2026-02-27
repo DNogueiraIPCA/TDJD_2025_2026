@@ -4,9 +4,17 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/fonte/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/FontSokoban.spritefont</File>
+    <File>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/Character4.png</File>
+    <File>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/Crate_Brown.png</File>
+    <File>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/EndPoint_Blue.png</File>
+    <File>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/FontSokoban.spritefont</File>
+    <File>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/Wall_Brown.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>
