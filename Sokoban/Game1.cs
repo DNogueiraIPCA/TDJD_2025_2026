@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 using System.IO;
 
 namespace Sokoban
@@ -18,6 +19,9 @@ namespace Sokoban
         
         private Texture2D player, dot, box, wall; //Load images Texture 
         int tileSize = 64; //potencias de 2 (operações binárias)
+        private Player sokoban;
+
+        public List<Point> boxes;
 
 
         public Game1()
@@ -26,7 +30,8 @@ namespace Sokoban
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
             //_graphics.PreferredBackBufferWidth = nrColunas*tileSize; //define a largura da janela
-            //_graphics.PreferredBackBufferHeight = nrLinhas*tileSize; //define a altura da janela        
+            //_graphics.PreferredBackBufferHeight = nrLinhas*tileSize;
+            //_graphics.ApplyChanges(); //define a altura da janela        
         }
 
         protected override void Initialize()
@@ -34,6 +39,9 @@ namespace Sokoban
             // TODO: Add your initialization logic here
             
             LoadLevel("level1.txt");
+            _graphics.PreferredBackBufferHeight = tileSize * level.GetLength(1); //definição da altura
+            _graphics.PreferredBackBufferWidth = tileSize * level.GetLength(0); //definição da largura
+            _graphics.ApplyChanges(); //aplica a atualização da janela
 
             base.Initialize();
         }
@@ -57,6 +65,7 @@ namespace Sokoban
                 Exit();
 
             // TODO: Add your update logic here
+            sokoban.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -81,12 +90,12 @@ namespace Sokoban
 
                     switch (level[x, y])
                     {
-                        case 'Y':
-                            _spriteBatch.Draw(player, position, Color.White);
-                            break;
-                        case '#':
-                            _spriteBatch.Draw(box, position, Color.White);
-                            break;
+                        //case 'Y':
+                        //    _spriteBatch.Draw(player, position, Color.White);
+                        //    break;
+                        //case '#':
+                        //    _spriteBatch.Draw(box, position, Color.White);
+                        //    break;
                         case '.':
                             _spriteBatch.Draw(dot, position, Color.White);
                             break;
@@ -95,11 +104,20 @@ namespace Sokoban
                             break;
                     }
                 }
+                position.X = sokoban.Position.X * tileSize; //posição do Player
+                position.Y = sokoban.Position.Y * tileSize; //posição do Player
+                _spriteBatch.Draw(player, position, Color.White); //desenha o Player
+
+                foreach (Point b in boxes)
+                {
+                    position.X = b.X * tileSize;
+                    position.Y = b.Y * tileSize;
+                    _spriteBatch.Draw(box, position, Color.White);
+                }
+
             }
 
-
             _spriteBatch.End();
-
 
             base.Draw(gameTime);
         }
@@ -107,7 +125,8 @@ namespace Sokoban
         void LoadLevel(string levelFile)
         {
             //Função para ler o ficheiro do nível e armazenar os dados numa matriz de caracteres
-   
+            boxes = new List<Point>();
+
             string[] linhas = File.ReadAllLines($"Content/{levelFile}");  // "Content/" + level
             nrLinhas = linhas.Length;
             nrColunas = linhas[0].Length;
@@ -118,7 +137,21 @@ namespace Sokoban
             {
                 for (int y = 0; y < nrLinhas; y++)
                 {
-                    level[x, y] = linhas[y][x];
+                    if (linhas[y][x] == '#')
+                    {
+                        boxes.Add(new Point(x, y));
+                        level[x, y] = ' '; // put a blank instead of the box '#'
+                    }
+                    else if (linhas[y][x] == 'Y')
+                    {
+                        sokoban = new Player(this, x, y);
+                        level[x, y] = ' '; // put a blank instead of the sokoban 'Y'
+                    }
+                    else
+                    {
+                        level[x, y] = linhas[y][x];
+                    }
+
                 }
             }
 

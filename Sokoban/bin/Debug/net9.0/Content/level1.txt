@@ -7,5 +7,5 @@ XXX X XX X   XXXXXX
 X   X XX XXXXX  ..X
 X #  #     Y    ..X
 XXXXX XXX XXXX  ..X
-    X     XXXXXXXXX
+    X     X  XXXXXX
     XXXXXXX         
