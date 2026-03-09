@@ -19,7 +19,7 @@ namespace Sokoban
         //private char[,] level;
         
         private Texture2D player, dot, box, wall; //Load images Texture 
-        int tileSize = 64; //potencias de 2 (operações binárias)
+        public int tileSize = 64; //potencias de 2 (operações binárias)
         private Player sokoban;
 
         public List<Point> boxes;
