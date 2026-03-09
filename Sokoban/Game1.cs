@@ -15,7 +15,8 @@ namespace Sokoban
         
         private int nrLinhas = 0;
         private int nrColunas = 0;
-        private char[,] level;
+        public char[,] level;
+        //private char[,] level;
         
         private Texture2D player, dot, box, wall; //Load images Texture 
         int tileSize = 64; //potencias de 2 (operações binárias)
@@ -121,10 +122,10 @@ namespace Sokoban
 
             base.Draw(gameTime);
         }
-
+        //Função para ler o ficheiro do nível e armazenar os dados numa matriz de caracteres
         void LoadLevel(string levelFile)
         {
-            //Função para ler o ficheiro do nível e armazenar os dados numa matriz de caracteres
+         
             boxes = new List<Point>();
 
             string[] linhas = File.ReadAllLines($"Content/{levelFile}");  // "Content/" + level
@@ -155,6 +156,25 @@ namespace Sokoban
                 }
             }
 
+        }
+        //Função para verificar se existe uma caixa na posição dada
+        public bool HasBox(int x, int y) // x e y é a posição do Player
+        {
+            foreach (Point b in boxes)
+            {
+                if (b.X == x && b.Y == y) return true; // se a caixa tiver a mesma posição do Player
+            }
+            return false;
+        }
+
+        //Função para verificar se a posição dada é um tile livre (sem parede e sem caixa)
+        public bool FreeTile(int x, int y)
+        {
+            if (level[x, y] == 'X') return false;  // se for uma parede está ocupada
+            if (HasBox(x, y)) return false; // verifica se é uma caixa
+            return true;
+
+            /* The same as:    return level[x,y] != 'X' && !HasBox(x,y);   */
         }
 
     }

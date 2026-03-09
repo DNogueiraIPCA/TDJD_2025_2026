@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Player.cs",
-              "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Player.cs",
-              "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwCwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T16:19:59.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Game1.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
               "ToolTip": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAYwEMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAwKkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T15:11:13.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwCQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T16:19:59.56Z",
               "EditorCaption": ""
             }
           ]
