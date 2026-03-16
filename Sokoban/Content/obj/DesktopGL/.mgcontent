@@ -9,6 +9,7 @@
     <File>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/Character10.png</File>
     <File>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/Character2.png</File>
     <File>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/Character3.png</File>
+    <File>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/Character4.png</File>
     <File>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/Character5.png</File>
     <File>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/Character6.png</File>
     <File>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/Character7.png</File>
@@ -21,6 +22,7 @@
   </SourceFiles>
   <DestFiles>
     <File>Character4.png</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -17,8 +17,9 @@ namespace Sokoban
         private int nrColunas = 0;
         public char[,] level;
         //private char[,] level;
-        
-        private Texture2D player, dot, box, wall; //Load images Texture 
+
+        //private Texture2D player, dot, box, wall; //Load images Texture 
+        private Texture2D dot, box, wall; //Load images Texture 
         public int tileSize = 64; //potencias de 2 (operações binárias)
         private Player sokoban;
 
@@ -51,12 +52,12 @@ namespace Sokoban
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             font = Content.Load<SpriteFont>("FontSokoban"); //Use the name of sprite font file ('File')
-            player = Content.Load<Texture2D>("Character4");
+            //player = Content.Load<Texture2D>("Character4"); //Retirado para a classe Player.cs
             dot = Content.Load<Texture2D>("EndPoint_Blue");
             box = Content.Load<Texture2D>("Crate_Brown");
             wall = Content.Load<Texture2D>("Wall_Brown");
 
-
+            sokoban.LoadContents();
             // TODO: use this.Content to load your game content here
         }
 
@@ -105,9 +106,11 @@ namespace Sokoban
                             break;
                     }
                 }
-                position.X = sokoban.Position.X * tileSize; //posição do Player
-                position.Y = sokoban.Position.Y * tileSize; //posição do Player
-                _spriteBatch.Draw(player, position, Color.White); //desenha o Player
+                //position.X = sokoban.Position.X * tileSize; //posição do Player
+                //position.Y = sokoban.Position.Y * tileSize; //posição do Player
+                //_spriteBatch.Draw(player, position, Color.White); //desenha o Player
+                
+                sokoban.Draw(_spriteBatch); //desenha o Player usando a função Draw do Player.cs
 
                 foreach (Point b in boxes)
                 {

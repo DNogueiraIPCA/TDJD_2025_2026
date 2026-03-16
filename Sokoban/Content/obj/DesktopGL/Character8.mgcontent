@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/Character8.png</SourceFile>
-  <SourceTime>2026-02-16T15:09:54+00:00</SourceTime>
+  <SourceTime>2026-03-12T20:30:17.5851246+00:00</SourceTime>
   <DestFile>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/Sokoban/Content/bin/DesktopGL/Character8.xnb</DestFile>
-  <DestTime>2026-03-09T15:05:06.0367995+00:00</DestTime>
+  <DestTime>2026-03-12T20:30:46.2947164+00:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-10-20T15:25:32+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

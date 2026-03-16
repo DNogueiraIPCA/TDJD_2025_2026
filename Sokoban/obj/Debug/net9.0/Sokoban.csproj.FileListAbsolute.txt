@@ -74,3 +74,12 @@ C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\
 C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Wall_Brown.xnb
 C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\level1.txt
 C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\level2.txt
+C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Character1.xnb
+C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Character10.xnb
+C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Character2.xnb
+C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Character3.xnb
+C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Character5.xnb
+C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Character6.xnb
+C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Character7.xnb
+C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Character8.xnb
+C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Character9.xnb
