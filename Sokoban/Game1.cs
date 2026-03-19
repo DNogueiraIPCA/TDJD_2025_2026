@@ -21,7 +21,7 @@ namespace Sokoban
         //private Texture2D player, dot, box, wall; //Load images Texture 
         private Texture2D dot, box, wall; //Load images Texture 
         public int tileSize = 64; //potencias de 2 (operações binárias)
-        private Player sokoban;
+        private Player sokoban; //instancia da classe Player.cs
 
         public List<Point> boxes;
 
@@ -40,7 +40,7 @@ namespace Sokoban
         {
             // TODO: Add your initialization logic here
             
-            LoadLevel("level1.txt");
+            LoadLevel("level1.txt"); //chama a função para ler o ficheiro do nível e armazenar os dados numa matriz de caracteres
             _graphics.PreferredBackBufferHeight = tileSize * level.GetLength(1); //definição da altura
             _graphics.PreferredBackBufferWidth = tileSize * level.GetLength(0); //definição da largura
             _graphics.ApplyChanges(); //aplica a atualização da janela
@@ -57,7 +57,7 @@ namespace Sokoban
             box = Content.Load<Texture2D>("Crate_Brown");
             wall = Content.Load<Texture2D>("Wall_Brown");
 
-            sokoban.LoadContents();
+            sokoban.LoadContents(); //chama a função para carregar o conteúdo do Player.cs
             // TODO: use this.Content to load your game content here
         }
 
@@ -67,7 +67,7 @@ namespace Sokoban
                 Exit();
 
             // TODO: Add your update logic here
-            sokoban.Update(gameTime);
+            sokoban.Update(gameTime); //chama a função para atualizar o Player.cs
 
             base.Update(gameTime);
         }

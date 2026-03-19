@@ -12,6 +12,7 @@ namespace Sokoban
 
     internal class Player
     {
+
         // Current player position in the matrix (multiply by tileSize prior to drawing)
 
         private Point position; //Point = Vector2, mas são inteiros
@@ -24,11 +25,11 @@ namespace Sokoban
         //	get{return position;}
         //}
 
-        private Texture2D[] sprites;
-        //private Texture2D[][] sprites;
+        //private Texture2D[] sprites;
+        private Texture2D[][] sprites;
 
-        //private int delta = 0;
-        //private int speed = 2; // NOTE: must be tileSize divider
+        private int delta = 0;
+        private int speed = 2; // NOTE: must be tileSize divider
 
         private Direction direction = Direction.Down; // direção inicial do player (para escolher o sprite correto para desenhar o player)
         private Game1 game; //reference from Game1 to Player - para o Player ter acesso a variáveis e funções do Game1 (ex: tileSize, level, etc)
@@ -43,60 +44,73 @@ namespace Sokoban
 
         public void LoadContents()
         {
-            sprites = new Texture2D[4];//[];
-            sprites[(int)Direction.Down] = game.Content.Load<Texture2D>("Character4");
-            sprites[(int)Direction.Up] = game.Content.Load<Texture2D>("Character7");
-            sprites[(int)Direction.Left] = game.Content.Load<Texture2D>("Character1");
-            sprites[(int)Direction.Right] = game.Content.Load<Texture2D>("Character2");
+            //sprites = new Texture2D[4];
+            //sprites[(int)Direction.Down] = game.Content.Load<Texture2D>("Character4");
+            //sprites[(int)Direction.Up] = game.Content.Load<Texture2D>("Character7");
+            //sprites[(int)Direction.Left] = game.Content.Load<Texture2D>("Character1");
+            //sprites[(int)Direction.Right] = game.Content.Load<Texture2D>("Character2");
             
-            //sprites = new Texture2D[4][];
-            //sprites[(int)Direction.Up] = new[] {
-            //    game.Content.Load<Texture2D>("Character7"),
-            //    game.Content.Load<Texture2D>("Character8"),
-            //    game.Content.Load<Texture2D>("Character9")  };
+            sprites = new Texture2D[4][];
+            sprites[(int)Direction.Up] = new[] {
+                game.Content.Load<Texture2D>("Character7"),
+                game.Content.Load<Texture2D>("Character8"),
+                game.Content.Load<Texture2D>("Character9")  };
 
-            //sprites[(int)Direction.Down] = new[] {
-            //game.Content.Load<Texture2D>("Character4"),
-            //game.Content.Load<Texture2D>("Character5"),
-            //game.Content.Load<Texture2D>("Character6") };
+            sprites[(int)Direction.Down] = new[] {
+                game.Content.Load<Texture2D>("Character4"),
+                game.Content.Load<Texture2D>("Character5"),
+                game.Content.Load<Texture2D>("Character6") };
 
-            //sprites[(int)Direction.Left] = new[] {
-            //game.Content.Load<Texture2D>("Character1"),
-            //game.Content.Load<Texture2D>("Character10") };
+            sprites[(int)Direction.Left] = new[] {
+                game.Content.Load<Texture2D>("Character1"),
+                game.Content.Load<Texture2D>("Character10") };
 
-            //sprites[(int)Direction.Right] = new[] {
-            //game.Content.Load<Texture2D>("Character2"),
-            //game.Content.Load<Texture2D>("Character3") };
+            sprites[(int)Direction.Right] = new[] {
+                game.Content.Load<Texture2D>("Character2"),
+                game.Content.Load<Texture2D>("Character3") };
 
         }
         // Function to update the player position based on keyboard input
         public void Update(GameTime gameTime)
         {
-            KeyboardState kState = Keyboard.GetState();
+            if (delta > 0)
+            {
+                delta = (delta + speed) % Game1.tileSize;
+            }
+            else
+            {
+                KeyboardState kState = Keyboard.GetState();
+                Point lastPosition = position; // Guarda a posição anterior do player para o caso de ter que voltar atrás (ex: se tentar mover-se para uma parede ou caixa que não pode ser movida)
+            }
             if (keysReleased)
             {
-                Point lastPosition = position; // Guarda a posição anterior do player para o caso de ter que voltar atrás (ex: se tentar mover-se para uma parede ou caixa que não pode ser movida)
-
                 keysReleased = false;
                 if ((kState.IsKeyDown(Keys.A)) || (kState.IsKeyDown(Keys.Left)))
                 {
                     position.X--;
                     direction = Direction.Left;
+                    delta = speed;
                 }
                 else if ((kState.IsKeyDown(Keys.W)) || (kState.IsKeyDown(Keys.Up)))
                 {
                     position.Y--;
                     direction = Direction.Up;
+                    delta = speed;
+
                 }
                 else if ((kState.IsKeyDown(Keys.S)) || (kState.IsKeyDown(Keys.Down)))
                 {
                     position.Y++;
                     direction = Direction.Down;
+                    delta = speed;
+
                 }
                 else if ((kState.IsKeyDown(Keys.D)) || (kState.IsKeyDown(Keys.Right)))
                 {
                     position.X++;
                     direction = Direction.Right;
+                    delta = speed;
+
                 }
                 else keysReleased = true;
 
@@ -127,6 +141,8 @@ namespace Sokoban
                     else
                     {
                         position = lastPosition; // se a caixa não pode ser movida (porque a posição para onde a caixa seria empurrada não é livre), o player volta para a posição anterior (fica parado)
+                        delta = 0;
+
                     }
                 }
                 else
@@ -136,6 +152,8 @@ namespace Sokoban
                                                                 // position = lastPosition;
                     {
                         position = lastPosition;
+                        delta = 0;
+
                         //delta = 0;
                     }
 
@@ -159,7 +177,7 @@ namespace Sokoban
                                            game.tileSize * position.Y,
                                            game.tileSize, game.tileSize);
 
-            sb.Draw(sprites[(int)direction], rect, Color.White); //desenha o Player
+            sb.Draw(sprites[(int)direction][0], rect, Color.White); //desenha o Player
         }
 
 

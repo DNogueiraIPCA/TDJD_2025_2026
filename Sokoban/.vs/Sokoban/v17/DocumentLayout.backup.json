@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1311E465-7722-4943-8518-F78CDEDE67F0}|Sokoban.csproj|c:\\users\\danie\\dropbox\\03-ipca\\05-repositorios\\tdjd_2025_2026\\sokoban\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1311E465-7722-4943-8518-F78CDEDE67F0}|Sokoban.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1311E465-7722-4943-8518-F78CDEDE67F0}|Sokoban.csproj|c:\\users\\danie\\dropbox\\03-ipca\\05-repositorios\\tdjd_2025_2026\\sokoban\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1311E465-7722-4943-8518-F78CDEDE67F0}|Sokoban.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1311E465-7722-4943-8518-F78CDEDE67F0}|Sokoban.csproj|c:\\users\\danie\\dropbox\\03-ipca\\05-repositorios\\tdjd_2025_2026\\sokoban\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1311E465-7722-4943-8518-F78CDEDE67F0}|Sokoban.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Game1.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Game1.cs*",
-              "RelativeToolTip": "Game1.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAABZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAALEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T13:49:33.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
               "ToolTip": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\Sokoban\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFIAAADDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T13:49:36.151Z",
               "EditorCaption": ""
