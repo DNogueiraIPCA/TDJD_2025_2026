@@ -83,3 +83,4 @@ C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\
 C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Character7.xnb
 C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Character8.xnb
 C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Character9.xnb
+C:\Users\danie\Dropbox\03-ipca\05-repositorios\TDJD_2025_2026\Sokoban\bin\Debug\net9.0\Content\Arial14.xnb

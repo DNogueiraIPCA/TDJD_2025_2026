@@ -25,6 +25,13 @@
 /processorParam:TextureFormat=Color
 /build:../../Sokoban Resources/PNG/Character4.png;Character4.png
 
+#begin Arial14.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Arial14.spritefont
+
 #begin Character1.png
 /importer:TextureImporter
 /processor:TextureProcessor
