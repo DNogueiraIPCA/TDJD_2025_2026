@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\NewGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B154479D-1C65-490B-AFB3-DBAD3769ED7D}|NewGame\\NewGame.csproj|c:\\users\\danie\\dropbox\\03-ipca\\05-repositorios\\tdjd_2025_2026\\newgame\\newgame\\keyboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B154479D-1C65-490B-AFB3-DBAD3769ED7D}|NewGame\\NewGame.csproj|solutionrelative:newgame\\keyboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B154479D-1C65-490B-AFB3-DBAD3769ED7D}|NewGame\\NewGame.csproj|c:\\users\\danie\\dropbox\\03-ipca\\05-repositorios\\tdjd_2025_2026\\newgame\\newgame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B154479D-1C65-490B-AFB3-DBAD3769ED7D}|NewGame\\NewGame.csproj|solutionrelative:newgame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B154479D-1C65-490B-AFB3-DBAD3769ED7D}|NewGame\\NewGame.csproj|c:\\users\\danie\\dropbox\\03-ipca\\05-repositorios\\tdjd_2025_2026\\newgame\\newgame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B154479D-1C65-490B-AFB3-DBAD3769ED7D}|NewGame\\NewGame.csproj|solutionrelative:newgame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\NewGame\\NewGame\\Game1.cs",
+              "RelativeDocumentMoniker": "NewGame\\Game1.cs",
+              "ToolTip": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\NewGame\\NewGame\\Game1.cs",
+              "RelativeToolTip": "NewGame\\Game1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T10:16:25.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KeyboardManager.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\NewGame\\NewGame\\KeyboardManager.cs",
+              "RelativeDocumentMoniker": "NewGame\\KeyboardManager.cs",
+              "ToolTip": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\NewGame\\NewGame\\KeyboardManager.cs",
+              "RelativeToolTip": "NewGame\\KeyboardManager.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAA5wDIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T10:37:43.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\NewGame\\NewGame\\Player.cs",
+              "RelativeDocumentMoniker": "NewGame\\Player.cs",
+              "ToolTip": "C:\\Users\\danie\\Dropbox\\03-ipca\\05-repositorios\\TDJD_2025_2026\\NewGame\\NewGame\\Player.cs",
+              "RelativeToolTip": "NewGame\\Player.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T15:16:56.692Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

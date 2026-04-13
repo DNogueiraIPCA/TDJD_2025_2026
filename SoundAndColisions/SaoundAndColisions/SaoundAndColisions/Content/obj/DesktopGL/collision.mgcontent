@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/SoundAndColisions/SaoundAndColisions/SaoundAndColisions/Content/collision.wav</SourceFile>
+  <SourceTime>2023-05-31T21:42:38+01:00</SourceTime>
+  <DestFile>C:/Users/danie/Dropbox/03-ipca/05-repositorios/TDJD_2025_2026/SoundAndColisions/SaoundAndColisions/SaoundAndColisions/Content/bin/DesktopGL/collision.xnb</DestFile>
+  <DestTime>2026-03-26T19:44:55.7785968+00:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2025-06-02T11:31:02+01:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2025-06-02T11:31:02+01:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
